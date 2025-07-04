@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Extension Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Browser Extension Manager</h1>
+      <div class="theme-toggle">
+        <span>Dark Mode</span>
+        <label class="switch">
+          <input type="checkbox" id="darkModeToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <div class="filters">
+      <button data-filter="all" class="filter-btn active">All</button>
+      <button data-filter="active" class="filter-btn">Active</button>
+      <button data-filter="inactive" class="filter-btn">Inactive</button>
+      <button id="toggleRemoved">Show Removed</button>
+    </div>
+
+    <div id="extensionList" class="extensions"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

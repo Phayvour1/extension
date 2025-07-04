@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Grammarly",
+    "description": "Enhance your writing across the web.",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Dark Reader",
+    "description": "Dark mode for every website.",
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "AdBlock Plus",
+    "description": "Block annoying ads on sites.",
+    "active": true
+  }, 
+  {
+    "id": 4,
+    "name": "Grammarly",
+    "description": "Enhance your writing across the web.",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Dark Reader",
+    "description": "Dark mode for every website.",
+    "active": false
+  },
+  {
+    "id": 6,
+    "name": "AdBlock Plus",
+    "description": "Block annoying ads on sites.",
+    "active": false
+  }
+]
